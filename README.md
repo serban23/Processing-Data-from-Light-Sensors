@@ -14,7 +14,3 @@ The architecture is split into two main components. The Arduino acts as a data a
 
 ![montaj](https://github.com/user-attachments/assets/40ef5110-8714-4887-bce6-013d30c98ef0)
 
-## 🔧 Technologies and Tools
-
-The system is implemented in VHDL and synthesized using Xilinx Vivado for deployment to the Basys3 FPGA board. The Arduino is programmed using C++ and the Arduino IDE. Internally, the FPGA design uses the AXI Stream protocol to connect processing modules in a clean and scalable way. The output interface includes a 7-segment controller capable of displaying numeric results in real time.
-
